@@ -10,15 +10,15 @@ const Information = () => {
   return (
       <section>
         <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 md:h-96">
-          <div className='bg-red-300 w-full md:h-full h-auto p-4 justify-center flex flex-col items-start px-10'>
-            <h2 className="text-3xl text-red-600 font-bold">{t('about_title')}</h2>
-              <p className="text-gray-700 mt-4 text-justify text-sm">
-                {t('about_text_1')}
-              </p>
-              <br/>
-              <p className="text-gray-700 mt-4 text-justify text-sm">
-                {t('about_text_2')}
-              </p>
+            <div className='bg-red-300 w-full md:h-full h-auto py-4 justify-center flex flex-col items-start px-8'>
+              <h2 className="text-2xl text-red-600 font-bold">{t('about_title')}</h2>
+                <p className="text-gray-700 mt-2 text-justify text-sm">
+                  {t('about_text_1')}
+                </p>
+                <br/>
+                <p className="text-gray-700 mt-2 text-justify text-sm">
+                  {t('about_text_2')}
+                </p>
             </div>
             <div className="bg-red-600 md:h-auto h-96 bg-cover bg-center sm:bg-custom-sm md:bg-custom-md" style={{ backgroundImage: `url(${aboutUs})`, backgroundPosition: 'center' }}>
               {/* Reemplaza con una <img> o deja el div para una imagen de fondo */}

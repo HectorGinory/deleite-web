@@ -22,8 +22,8 @@ const Catalog = () => {
       <div className='h-[100vh] flex items-center justify-center '>
         <div className='h-[calc(100%-2rem)] rounded-xl overflow-hidden items-center flex flex-col w-full'>
           <div className='md:h-10 border-b-2 border-red-900 w-full text-red-900 flex md:justify-between px-6 py-6 md:py-12 md:flex-row flex-col '>
-            <div className='flex gap-4 md:items-center md:flex-row flex-col'>
-              <div className='flex flex-col items-start'>
+            <div className='flex gap-4 md:items-center flex-row'>
+              <div className='flex flex-col items-start '>
                 <label className='text-xl font-semibold'>{t('company_label')}</label>
                 <select 
                   className='px-6 py-2 rounded-lg shadow-md'

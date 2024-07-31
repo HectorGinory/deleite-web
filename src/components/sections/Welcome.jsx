@@ -12,7 +12,7 @@ const Welcome = () => {
       <div className='relative w-full h-96 bg-cover bg-center border-b-2 border-red-600' style={{ backgroundImage: `url(${bannerImage})` }}>
         <div className='absolute inset-0'></div> {/* Overlay for text contrast */}
       </div>
-      <section className="bg-whiteBone-200 md:h-[30rem] flex items-center justify-center">
+      <section className="bg-whiteBone-200 md:h-[20rem] flex items-center justify-center py-8 md:py-0">
         <div className="text-center">
           <h2 className="text-5xl text-red-800 font-light">{t('hero_title')}</h2>
           <p className="text-xl text-red-800 mt-2">{t('hero_subtitle')}</p>

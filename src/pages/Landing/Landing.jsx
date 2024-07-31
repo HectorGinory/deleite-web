@@ -37,7 +37,7 @@ const Landing = () => {
   };
 
   return (
-    <div className="landing bg-red-950">
+    <div className="landing bg-red-950 w-[100vw] overflow-hidden">
       <Nav />
       <section className='border-b-2 shadow-xl border-red-900' id="home">
         <Welcome />
